@@ -223,10 +223,134 @@
   outline: none;
 }
 
+/* DOWNLOAD */
+.download {
+  background: #F5F6F7;
+}
 
+.download-container {
+  padding: 120px 0 180px;
+}
+
+.download__title {
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.download__subtitle {
+  max-width: 484px;
+  width: 100%;
+  margin: 20px auto 0;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #4E4E4E;
+}
+
+.download__buttons {
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: space-around;
+  width: 436px;
+}
+
+.download__buttons-store,
+.download__buttons-market {
+  display: flex;
+  overflow: hidden;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.download__buttons-store span,
+.download__buttons-market span {
+    background: #00AFDB;
+    padding: 18px;
+}
+
+.download__buttons__img {
+  background: #009CC2;
+  width: 60px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
 /* --- END MAIN --- */
 
 
 
 /* FOOTER */
+.footer {
+  padding: 60px 0 80px;
+  background: #000000;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer__nav {}
+
+.footer__nav-item {
+    font-family: Roboto,
+    sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.98;
+}
+
+.footer__nav-item+.footer__nav-item {
+  margin-left: 40px;
+  position: relative;
+}
+
+.footer__nav-item+.footer__nav-item:after {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: -20px;
+  width: 1px;
+  height: 8px;
+  background-color: #4E4E4E;
+}
+
+.footer__logo {}
+
+.footer__text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #818181;
+}
 /* END FOOTER */
