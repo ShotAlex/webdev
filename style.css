@@ -171,6 +171,59 @@
   padding: 120px 0 140px;
   background: #F5F6F7;
 }
+
+/* DESCRIBE */
+.subscribe {
+  /* background-color: rgba(7, 6, 6, 0.2); */
+}
+.subscribe-container {
+  padding: 217px 20px 277px;
+  background: url('./assets/subscribe.png') no-repeat;
+  background-position: center center;
+  /* background-size: contain; */
+}
+
+.subscribe__title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+
+}
+.subscribe__form {
+  margin: 30px auto 0;
+  max-width: 406px;
+  width: 100%;
+  height: 46px;
+  display: flex;
+}
+.subscribe__form-input {
+  padding: 14px 24px 12px;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.subscribe__form-input::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #373737;
+}
+.subscribe__form-button {
+  padding: 14px 24px;
+  background: #00AFDB;
+  border: none;
+  outline: none;
+}
+
+
 /* --- END MAIN --- */
 
 
