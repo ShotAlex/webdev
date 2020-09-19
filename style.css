@@ -18,6 +18,24 @@
     top: 100px;
     left: 100px;
   }
+
+  .button {
+      background: #00AFDB;
+      padding: 15px 47px;
+      border: none;
+      cursor: pointer;
+      outline: none;
+
+      font-family: Roboto,
+      sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+  }
 /* END FONT, BASIC STYLE, CONTAINER */
 
 /* HEADER */ 
@@ -53,6 +71,7 @@
 
 .header__title {
   margin-top: 136px;
+  margin-bottom: 0;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -80,20 +99,6 @@
 
 .header-button {
   margin-top: 30px;
-  background: #00AFDB;
-  padding: 15px 47px;
-  border: none;
-  cursor: pointer;
-  outline: none;
-
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
 }
 
 .header-social-links {
@@ -106,8 +111,69 @@
 }
 /* END HEADER */
 
-/* MAIN */
-/* END MAIN */
+
+
+
+/* --- MAIN --- */
+/* rappresent */
+.rappresent {}
+.implement.container,
+.rappresent.container {
+  display: flex;
+  max-width: 1060px;
+  width: 100%;
+  padding: 120px 0 140px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.implement-content,
+.rappresent-content {
+  max-width: 407px;
+  width: 100%;
+  text-align: left;
+}
+
+.implement-content__title,
+.rappresent-content__title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.implement-content__subtitle,
+.rappresent-content__subtitle {
+  margin-top: 20px;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #4E4E4E;
+}
+
+.implement-content__button,
+.rappresent-content__button {
+  margin-top: 30px;
+}
+
+.rappresent-image {}
+
+
+/* OUR COMMUNITY */
+.our-community {
+  padding: 120px 0 140px;
+  background: #F5F6F7;
+}
+/* --- END MAIN --- */
+
+
 
 /* FOOTER */
 /* END FOOTER */
